@@ -1,0 +1,1 @@
+1.dataobject和数据库表中字段一一映射，但是dataObject并没有涵盖全部的内容，需要有一个Model的概念

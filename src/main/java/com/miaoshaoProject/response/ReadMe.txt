@@ -1,0 +1,3 @@
+1.由于返回的View是Jason格式，出现错误并不能返回正确的通知，所以现在设置了CommonReturnType
+2.在CommonReturnType中定义了两个字段，其中一个字段是status，用来表示状态，Object用来表示数据
+3.不论是出现异常还是正常返回都使用CommonRetrunType

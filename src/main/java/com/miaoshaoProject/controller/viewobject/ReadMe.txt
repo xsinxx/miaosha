@@ -1,0 +1,3 @@
+1.dataObject中存放的是和数据库表中字段的一一映射的关系
+2.dataObject中的对象并不是全部的信息，而且基于分层的思想并不可以将dataObject返回，而是要返回一个Model
+3.在Model中有许多不需要展示的字段，所以要设置View，View仅可以拿到部分信息
